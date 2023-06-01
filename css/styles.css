@@ -12,6 +12,17 @@ background-color: #FFFFFF;
 }
 
 
+p,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+img{
+    display: block;
+}
+
 .link{
 text-decoration: none;
 }
@@ -19,10 +30,36 @@ text-decoration: none;
 
 .list{
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container{
+    width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 0 auto;
+}
+/*--------------HEADER--------------------*/
+
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
 }
 
 
-/*--------------HEADER--------------------*/
+.header-navigation{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
 
 
 .header-logo {
@@ -33,6 +70,9 @@ text-decoration: none;
     letter-spacing: 0.03em;
     color: #4D5AE5;;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
 }
 
 .header-logo span{
@@ -40,7 +80,10 @@ text-decoration: none;
 }
 
 
-.header-menu {}
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
 
 
 .header-menu-item {}
@@ -67,7 +110,11 @@ text-decoration: none;
 }
 
 
-.address-list{}
+.address-list{
+    display: flex;
+    margin-left: 322px;
+    gap: 40px;
+}
 
 
 .address-item {}
@@ -90,23 +137,34 @@ text-decoration: none;
 /*-------------HERO-----------------*/
 
 .hero {
-    background-color: var(--title-color);
+    padding-bottom: 120px;
 }
 
+
+.hero-container{
+    background-color: var(--title-color);
+    padding: 188px 472px 244px 472px;
+}
 
 
 .hero-title {
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        color: #FFFFFF;
-        letter-spacing: 0.02em
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .hero-btn {
-font-family: inherit;
+    min-width: 169px;
+    height: 56px;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -114,6 +172,16 @@ font-family: inherit;
     color: #FFFFFF;
     cursor: pointer;
     background-color: #4D5AE5;
+    border-radius: 4px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.btn-container{
+    display: flex;
+    align-items: center;
 }
 
 .hero-btn:hover,
@@ -123,17 +191,23 @@ font-family: inherit;
 /*----------ABOUT US-------------*/
 .about {}
 
-.about-list {}
+.about-list {
+    display: flex;
+    gap: 24px;
+}
 
-.about-item {}
+.about-item {
+   width: calc((100%-72px)/4);
+}
 
 
 .about-subtitle {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--title-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    margin-bottom: 18px;
 }
 
 
@@ -146,7 +220,10 @@ font-family: inherit;
 
 /* --------------DOING--------------*/
 
-.doing {}
+.doing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 
 .doing-title {
@@ -156,18 +233,36 @@ font-family: inherit;
     color: var(--title-color);
     text-align: center;
     text-transform: capitalize;
+    max-width: 323px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
-.doing-list {}
+.doing-list {
+    display: flex;
+    gap: 24px;
+}
 
 
-.doing-item {}
+.doing-item {
+    width: calc((100% - 48px)/3);
+}
 
 /*---------------TEAM----------------*/
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
 }
+
+
+
+.team-container{
+    background-color: #F4F4FD;
+}
+
+
+
 
 .team-title {
     font-weight: 700;
@@ -177,13 +272,20 @@ font-family: inherit;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
+    display: flex;
+    gap: 24px;
+
 }
 
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 96px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 120px;
 }
 
 .team-subtitle {
@@ -206,6 +308,12 @@ font-family: inherit;
 .footer{
     background-color: var(--title-color)
 }
+
+
+.footer-container{
+    background-color: var(--title-color);
+}
+
 
 
 .footer-logo {
