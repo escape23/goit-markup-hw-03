@@ -1,0 +1,282 @@
+:root{
+    --title-color: #2E2F42;
+    --main-text-color: #434455;
+    --second-text-color: #ffffff;
+    --focus-color: #404BBF;
+}
+body{
+font-family: 'Roboto',
+sans-serif;
+color: var(--main-text-color);
+background-color: #FFFFFF;
+}
+
+
+.link{
+text-decoration: none;
+}
+
+
+.list{
+    list-style-type: none;
+}
+
+
+/*--------------HEADER--------------------*/
+
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;     
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;;
+    text-transform: uppercase;
+}
+
+.header-logo span{
+    color: #2E2F42;
+}
+
+
+.header-menu {}
+
+
+.header-menu-item {}
+
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--title-color);
+    letter-spacing: 0.02em;
+}
+
+
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--focus-color);
+}
+
+
+.address {
+    font-style: normal;
+}
+
+
+.address-list{}
+
+
+.address-item {}
+
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    
+}
+
+
+.address-link:hover,
+.address-link:focus{
+    color: var(--focus-color);
+}
+
+/*-------------HERO-----------------*/
+
+.hero {
+    background-color: var(--title-color);
+}
+
+
+
+.hero-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        color: #FFFFFF;
+        letter-spacing: 0.02em
+}
+
+
+.hero-btn {
+font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF;
+}
+/*----------ABOUT US-------------*/
+.about {}
+
+.about-list {}
+
+.about-item {}
+
+
+.about-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+}
+
+
+.about-item-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+
+/* --------------DOING--------------*/
+
+.doing {}
+
+
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--title-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.doing-list {}
+
+
+.doing-item {}
+
+/*---------------TEAM----------------*/
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--title-color);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list {
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-color);
+    letter-spacing: 0.02em;
+}
+
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+    letter-spacing: 0.02em;
+}
+
+/*------------------FOOTER--------------*/
+
+.footer{
+    background-color: var(--title-color)
+}
+
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.footer-logo span {
+    color: #f4f4fd;
+}
+
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+/*--------------SECTION OF BUTTONS-----------------*/
+
+.btn-list {
+
+}
+
+.btn-item {
+
+}
+
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #f4f4fd;
+}
+
+
+.btn:hover,
+.btn:focus{
+    color: #ffffff;
+    background-color: var(--focus-color);
+}
+
+
+.info-list {
+    list-style: none;
+}
+
+.info-item {}
+
+.info-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-color);
+    letter-spacing: 0.02em;
+}
+
+.info-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+    letter-spacing: 0.02em;
+}
