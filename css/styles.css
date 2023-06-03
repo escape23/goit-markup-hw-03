@@ -178,7 +178,7 @@ text-decoration: none;
     border: none;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: block;
     align-items: center;
 }
 
@@ -192,6 +192,13 @@ text-decoration: none;
 .about {
     padding: 120px 0;
 }
+
+
+.visually-hidden{
+    position: fixed;
+    transform: scale(0);
+}
+
 
 .about-list {
     display: flex;
@@ -283,6 +290,12 @@ text-decoration: none;
 
 }
 
+
+.team-item-container{
+    padding: 32px 16px;
+}
+
+
 .team-item {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
@@ -296,6 +309,8 @@ text-decoration: none;
     line-height: 1.2;
     color: var(--title-color);
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -303,6 +318,7 @@ text-decoration: none;
     line-height: 1.5;
     color: var(--main-text-color);
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /*------------------FOOTER--------------*/
