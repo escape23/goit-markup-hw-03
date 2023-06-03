@@ -36,9 +36,8 @@ text-decoration: none;
 }
 
 .container{
-    width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 /*--------------HEADER--------------------*/
@@ -47,6 +46,7 @@ text-decoration: none;
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container{
@@ -73,6 +73,7 @@ text-decoration: none;
     display: flex;
     align-items: center;
     margin-right: auto;
+    margin-right: 76px;
 }
 
 .header-logo span{
@@ -95,6 +96,7 @@ text-decoration: none;
     line-height: 1.5;
     color: var(--title-color);
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 
@@ -137,7 +139,7 @@ text-decoration: none;
 /*-------------HERO-----------------*/
 
 .hero {
-    padding-bottom: 120px;
+    padding: 188px 0;
 }
 
 
@@ -176,20 +178,20 @@ text-decoration: none;
     border: none;
     margin-left: auto;
     margin-right: auto;
-}
-
-
-.btn-container{
     display: flex;
     align-items: center;
 }
+
+
 
 .hero-btn:hover,
 .hero-btn:focus{
     background-color: #404BBF;
 }
 /*----------ABOUT US-------------*/
-.about {}
+.about {
+    padding: 120px 0;
+}
 
 .about-list {
     display: flex;
@@ -207,7 +209,7 @@ text-decoration: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    margin-bottom: 18px;
+    margin-bottom: 8px;
 }
 
 
@@ -252,7 +254,7 @@ text-decoration: none;
 
 .team {
     background-color: #F4F4FD;
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 
@@ -283,7 +285,7 @@ text-decoration: none;
 
 .team-item {
     background-color: #FFFFFF;
-    width: calc((100% - 96px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 120px;
 }
@@ -306,7 +308,8 @@ text-decoration: none;
 /*------------------FOOTER--------------*/
 
 .footer{
-    background-color: var(--title-color)
+    background-color: var(--title-color);
+    padding: 100px 0;
 }
 
 
@@ -324,6 +327,8 @@ text-decoration: none;
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo span {
