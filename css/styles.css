@@ -362,8 +362,16 @@ text-decoration: none;
 
 /*--------------SECTION OF BUTTONS-----------------*/
 
-.btn-list {
+.section-list{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
+.btn-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px
 }
 
 .btn-item {
@@ -380,6 +388,9 @@ text-decoration: none;
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #f4f4fd;
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
 }
 
 
@@ -387,14 +398,21 @@ text-decoration: none;
 .btn:focus{
     color: #ffffff;
     background-color: var(--focus-color);
+    border: 1px solid transparent;
 }
 
 
 .info-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
-.info-item {}
+.info-item {
+    width: calc((100% - 48px) / 3);
+}
 
 .info-subtitle {
     font-weight: 500;
@@ -402,6 +420,7 @@ text-decoration: none;
     line-height: 1.2;
     color: var(--title-color);
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .info-item-text {
@@ -409,4 +428,11 @@ text-decoration: none;
     line-height: 1.5;
     color: var(--main-text-color);
     letter-spacing: 0.02em;
+}
+
+.info-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
