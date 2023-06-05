@@ -58,7 +58,6 @@ text-decoration: none;
 .header-navigation{
     display: flex;
     align-items: center;
-    flex-grow: 1;
 }
 
 
@@ -109,12 +108,12 @@ text-decoration: none;
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 
 .address-list{
     display: flex;
-    margin-left: 322px;
     gap: 40px;
 }
 
@@ -140,12 +139,11 @@ text-decoration: none;
 
 .hero {
     padding: 188px 0;
+    background-color: var(--title-color);
 }
 
 
 .hero-container{
-    background-color: var(--title-color);
-    padding: 188px 472px 244px 472px;
 }
 
 
@@ -238,7 +236,6 @@ text-decoration: none;
 /* --------------DOING--------------*/
 
 .doing {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -250,8 +247,6 @@ text-decoration: none;
     color: var(--title-color);
     text-align: center;
     text-transform: capitalize;
-    max-width: 323px;
-    margin: 0 auto;
     margin-bottom: 72px;
 }
 
@@ -309,7 +304,6 @@ text-decoration: none;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 120px;
 }
 
 .team-subtitle {
@@ -366,6 +360,7 @@ text-decoration: none;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 /*--------------SECTION OF BUTTONS-----------------*/
@@ -442,5 +437,4 @@ text-decoration: none;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
